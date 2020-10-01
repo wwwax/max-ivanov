@@ -2,3 +2,20 @@ html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
     Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+/* BIO */
+
+.bio_title {
+  font-size: 45px;
+  line-height: 2;
+}
+
+.bio_occupation {
+  font-size: 14px;
+  line-height: 1.714;
+}
+
+.bio_about {
+  font-size: 14px;
+  line-height: 1.714;
+}
