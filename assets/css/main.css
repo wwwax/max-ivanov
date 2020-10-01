@@ -3,6 +3,113 @@ html {
     Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+body {
+  background-color: #f5f7fa;
+  padding: 40px;
+}
+
+/* COMMON USER */
+
+.bio,
+.projects,
+.jobs,
+.education {
+  margin-bottom: 60px;
+}
+
+.avatar,
+.contacts,
+.skills {
+  margin-bottom: 60px;
+}
+
+.contacts,
+.skills {
+  padding-left: 40px;
+}
+
+.accent {
+  color: #ff6b08;
+}
+
+.container {
+  display: flex;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f3f2f2;
+  box-shadow: 10px 10px 20px 0px hsla(0, 0%, 0%, 0.1);
+}
+
+.left-side {
+  width: 370px;
+  min-height: 370px;
+  background-color: #1e2939;
+  color: #fff;
+}
+
+.right-side {
+  padding-top: 68px;
+  padding-right: 200px;
+  padding-bottom: 68px;
+  padding-left: 80px;
+  width: 830px;
+}
+
+/* AVATAR */
+
+.avatar {
+  width: 370px;
+}
+
+/* CONTACTS */
+
+.contacts_title {
+  font-size: 22px;
+  line-height: 1.091;
+}
+
+.contacts_item {
+  font-size: 14px;
+  line-height: 1.714;
+}
+
+.contacts_link {
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.6;
+  transition: opacity 0.2s ease;
+}
+
+.contacts_link:hover {
+  opacity: 1;
+}
+
+/* SKILLS */
+
+.skills_title {
+  font-size: 22px;
+  line-height: 1.091;
+}
+
+.skills_list,
+.contacts_list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.skills_item {
+  font-size: 14px;
+  line-height: 1.714;
+}
+
+.skills_item::before {
+  content: '\2022';
+  font-size: 18px;
+  color: #ff6b08;
+  margin-right: 8px;
+}
+
 /* BIO */
 
 .bio_title {
@@ -56,34 +163,53 @@ html {
   font-size: 22px;
   line-height: 1.091;
   color: #2a2a2a;
+  margin-bottom: 26px;
 }
 
 .jobs_occupation {
   font-size: 16px;
   line-height: 1.5;
   color: #2a2a2a;
+  margin-bottom: 16px;
 }
 
 .jobs_time {
   font-size: 12px;
   line-height: 2;
   color: #828282;
+  margin-bottom: 18px;
+}
+
+.experience {
+  margin-bottom: 28px;
 }
 
 .experience_item {
   font-size: 14px;
   line-height: 1.714;
   color: #595959;
+  margin-bottom: 10px;
 }
 
-/* CONTACTS */
+/* EDUCATION */
 
-.contacts_link {
-  color: #595959;
-  text-decoration: none;
-  transition: color 0.2s ease;
+.education_title {
+  font-size: 22px;
+  line-height: 1.091;
+  color: #2a2a2a;
+  margin-bottom: 26px;
 }
 
-.contacts_link:hover {
-  color: #ff6b08;
+.education_degree {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2a2a2a;
+  margin-bottom: 16px;
+}
+
+.education_time {
+  font-size: 12px;
+  line-height: 2;
+  color: #828282;
+  margin-bottom: 18px;
 }
