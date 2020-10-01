@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* ROOT */
+
+.root {
+  height: 100vh;
+  background-image: linear-gradient(to right, rgb(39, 39, 39, 0.8), rgb(39, 39, 39, 0.8)),
+    url(../assets/img/bg/bg_min.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+/* BIO */
+
+.bio {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.bio_name {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.bio_occupation {
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+/* PORTFOLIO-BTN */
+
+.portfolio-btn {
+  display: block;
+  padding: 10px 20px;
+  background-color: #fff;
+  opacity: 0.6;
+  color: #272727;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+/* CONTACTS */
+
+.contacts {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacts_link {
+  color: #fff;
+  opacity: 0.6;
+  font-size: 12px;
+  padding: 4px;
+}
