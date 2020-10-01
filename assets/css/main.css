@@ -8,14 +8,82 @@ html {
 .bio_title {
   font-size: 45px;
   line-height: 2;
+  margin-bottom: 20px;
 }
 
 .bio_occupation {
+  margin-bottom: 27px;
+}
+
+.bio_about {
+  color: #595959;
+}
+
+.bio_title,
+.bio_occupation {
+  color: #2a2a2a;
+}
+
+.bio_occupation,
+.bio_about {
   font-size: 14px;
   line-height: 1.714;
 }
 
-.bio_about {
+/* PROJECTS */
+
+.projects_title {
+  font-size: 22px;
+  line-height: 1.091;
+  color: #2a2a2a;
+  margin-bottom: 14px;
+}
+
+.projects_link {
   font-size: 14px;
   line-height: 1.714;
+  color: #220fdc;
+  transition: color 0.2s ease;
+}
+
+.projects_link:hover {
+  color: #ff6b08;
+}
+
+/* JOBS */
+
+.jobs_title {
+  font-size: 22px;
+  line-height: 1.091;
+  color: #2a2a2a;
+}
+
+.jobs_occupation {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2a2a2a;
+}
+
+.jobs_time {
+  font-size: 12px;
+  line-height: 2;
+  color: #828282;
+}
+
+.experience_item {
+  font-size: 14px;
+  line-height: 1.714;
+  color: #595959;
+}
+
+/* CONTACTS */
+
+.contacts_link {
+  color: #595959;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.contacts_link:hover {
+  color: #ff6b08;
 }
