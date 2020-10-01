@@ -34,12 +34,13 @@ html {
 }
 
 .bio_name {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 700;
   margin-bottom: 10px;
 }
 
 .bio_occupation {
+  font-size: 20px;
   font-weight: 300;
   text-transform: uppercase;
 }
@@ -54,7 +55,8 @@ html {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 12px;
+  font-size: 14px;
+  border-radius: 3px;
 }
 
 /* CONTACTS */
@@ -70,19 +72,21 @@ html {
 
 .contacts_link {
   color: #fff;
-  font-size: 14px;
+  font-size: 20px;
   padding: 10px;
 }
 
 /* PORTFOLIO-PAGE */
 
 .btn-back {
-  display: block;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background-color: #272727;
+  font-size: 20px;
+  color: #272727;
   position: absolute;
   bottom: 10px;
   right: 10px;
+}
+
+.portfolio_title {
+  text-align: center;
+  padding: 40px 0;
 }
