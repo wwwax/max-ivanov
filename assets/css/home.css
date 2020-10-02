@@ -1,12 +1,39 @@
+/* COMMON */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
-    Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.btn {
+  display: block;
+  padding: 10px 20px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #fff;
+  color: #272727;
+  border-radius: 3px;
+}
+
+@media (min-width: 1024px) {
+  .btn {
+    opacity: 0.6;
+    transition: opacity 0.2s ease;
+  }
+
+  .btn:hover {
+    opacity: 1;
+  }
 }
 
 /* ROOT */
@@ -14,7 +41,7 @@ html {
 .root {
   height: 100vh;
   background-image: linear-gradient(to right, rgb(39, 39, 39, 0.8), rgb(39, 39, 39, 0.8)),
-    url(../assets/img/bg/bg_min.jpg);
+    url(../../assets/img/bg/bg_min.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -32,56 +59,31 @@ html {
         rgb(39, 39, 39, 0.8),
         rgb(39, 39, 39, 0.8)
       ),
-      url(../assets/img/bg/bg.jpg);
+      url(../../assets/img/bg/bg.jpg);
   }
 }
 
-/* BIO-BUILD */
+/* BIO */
 
-.bio,
-.build {
+.bio {
   color: #fff;
   text-align: center;
   margin-bottom: 20px;
 }
 
-.bio_name,
-.build_title {
+.bio_name {
+  font-family: 'Kaushan Script', cursive;
   font-size: 50px;
   font-weight: 700;
   margin-bottom: 10px;
 }
 
-.bio_occupation,
-.build_subtitle {
-  font-size: 20px;
+.bio_occupation {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
   font-weight: 300;
   text-transform: uppercase;
-}
-
-/* BTN */
-
-.btn {
-  display: block;
-  padding: 10px 20px;
-  font-size: 14px;
-  font-weight: 700;
-  color: #272727;
-  background-color: #fff;
-  text-decoration: none;
-  text-transform: uppercase;
-  border-radius: 3px;
-}
-
-@media (min-width: 1024px) {
-  .btn {
-    opacity: 0.6;
-    transition: opacity 0.2s ease;
-  }
-
-  .btn:hover {
-    opacity: 1;
-  }
+  padding: 0 10px;
 }
 
 /* CONTACTS */
@@ -111,14 +113,4 @@ html {
   .contacts_link:hover {
     opacity: 1;
   }
-}
-
-/* BACK-ARROW */
-
-.back-arrow {
-  font-size: 20px;
-  color: #272727;
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
 }
