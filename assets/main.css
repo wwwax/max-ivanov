@@ -25,38 +25,63 @@ html {
   position: relative;
 }
 
-/* BIO */
+@media (min-width: 660px) {
+  .root {
+    background-image: linear-gradient(
+        to right,
+        rgb(39, 39, 39, 0.8),
+        rgb(39, 39, 39, 0.8)
+      ),
+      url(../assets/img/bg/bg.jpg);
+  }
+}
 
-.bio {
-  text-align: center;
+/* BIO-BUILD */
+
+.bio,
+.build {
   color: #fff;
+  text-align: center;
   margin-bottom: 20px;
 }
 
-.bio_name {
+.bio_name,
+.build_title {
   font-size: 50px;
   font-weight: 700;
   margin-bottom: 10px;
 }
 
-.bio_occupation {
+.bio_occupation,
+.build_subtitle {
   font-size: 20px;
   font-weight: 300;
   text-transform: uppercase;
 }
 
-/* PORTFOLIO-BTN */
+/* BTN */
 
-.portfolio-btn {
+.btn {
   display: block;
   padding: 10px 20px;
-  background-color: #fff;
+  font-size: 14px;
+  font-weight: 700;
   color: #272727;
+  background-color: #fff;
   text-decoration: none;
   text-transform: uppercase;
-  font-weight: 700;
-  font-size: 14px;
   border-radius: 3px;
+}
+
+@media (min-width: 1024px) {
+  .btn {
+    opacity: 0.6;
+    transition: opacity 0.2s ease;
+  }
+
+  .btn:hover {
+    opacity: 1;
+  }
 }
 
 /* CONTACTS */
@@ -65,6 +90,7 @@ html {
   position: absolute;
   top: 10px;
   right: 10px;
+  z-index: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -73,20 +99,26 @@ html {
 .contacts_link {
   color: #fff;
   font-size: 20px;
-  padding: 10px;
+  padding: 6px;
 }
 
-/* PORTFOLIO-PAGE */
+@media (min-width: 1024px) {
+  .contacts_link {
+    opacity: 0.6;
+    transition: opacity 0.2s ease;
+  }
 
-.btn-back {
+  .contacts_link:hover {
+    opacity: 1;
+  }
+}
+
+/* BACK-ARROW */
+
+.back-arrow {
   font-size: 20px;
   color: #272727;
   position: absolute;
   bottom: 10px;
   right: 10px;
-}
-
-.portfolio_title {
-  text-align: center;
-  padding: 40px 0;
 }
