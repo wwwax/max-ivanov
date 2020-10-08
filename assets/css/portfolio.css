@@ -20,9 +20,9 @@ img {
 
 .btn {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 0.5rem 1.2rem;
   font-family: 'Raleway', sans-serif;
-  font-size: 12px;
+  font-size: 0.8rem;
   font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
@@ -115,14 +115,16 @@ img {
 
 .portfolio_item .overlay_title {
   color: #fff;
-  font-family: 'Raleway', sans-serif;
-  font-size: 24px;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
 }
 
 .portfolio_item .overlay_stack {
   color: #fff;
   opacity: 0.7;
-  font-family: 'Kaushan Script', cursive;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
   margin-bottom: 10px;
 }
 
