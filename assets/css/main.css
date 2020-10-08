@@ -31,15 +31,107 @@ img {
   border-radius: 3px;
 }
 
+@media (min-width: 1024px) {
+  .btn {
+    font-size: 0.9rem;
+  }
+}
+
+/* HOME */
+
+.home {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right, rgb(39, 39, 39, 0.8), rgb(39, 39, 39, 0.8)),
+    url(../../assets/img/bg/bg_min.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+@media (min-width: 660px) {
+  .home {
+    background-image: linear-gradient(
+        to right,
+        rgb(39, 39, 39, 0.8),
+        rgb(39, 39, 39, 0.8)
+      ),
+      url(../../assets/img/bg/bg.jpg);
+  }
+}
+
+/* BIO */
+
+.bio {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.bio_name {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.bio_occupation {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding: 0 10px;
+}
+
+@media (min-width: 1024px) {
+  .bio_name {
+    font-size: 5rem;
+  }
+
+  .bio_occupation {
+    font-size: 1.8rem;
+  }
+}
+
+/* CONTACTS */
+
+.contacts {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacts_link {
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.3rem;
+}
+
+@media (min-width: 1024px) {
+  .contacts_link {
+    font-size: 1.2rem;
+    padding: 0.4rem;
+  }
+}
+
 /* PORTFOLIO */
 
 .portfolio {
-  background-color: rgb(39, 39, 39);
+  background-color: rgba(39, 39, 39, 0.83);
   min-height: 100%;
 }
 
 .portfolio_intro {
-  height: 40vh;
+  height: 30vh;
   background-image: linear-gradient(
       to right,
       rgba(39, 39, 39, 0.8),
@@ -59,7 +151,7 @@ img {
 .portfolio_intro_name {
   color: #fff;
   font-family: 'Kaushan Script', cursive;
-  font-size: 44px;
+  font-size: 3rem;
   margin-bottom: 10px;
 }
 
@@ -104,8 +196,8 @@ img {
   left: 0;
   bottom: 0;
   z-index: 1;
-  height: 80%;
   width: 100%;
+  height: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -117,6 +209,7 @@ img {
   color: #fff;
   font-family: 'Kaushan Script', cursive;
   font-size: 1.5rem;
+  line-height: 1;
   margin-bottom: 10px;
 }
 
@@ -125,7 +218,7 @@ img {
   opacity: 0.7;
   font-family: 'Raleway', sans-serif;
   font-size: 1rem;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 @media (min-width: 440px) {
@@ -169,6 +262,10 @@ img {
 }
 
 @media (min-width: 1024px) {
+  .portfolio_intro_name {
+    font-size: 4.5rem;
+  }
+
   .portfolio_list {
     width: 910px;
   }
@@ -176,6 +273,14 @@ img {
   .portfolio_item {
     width: 450px;
     height: 300px;
+  }
+
+  .portfolio_item .overlay_title {
+    font-size: 2rem;
+  }
+
+  .portfolio_item .overlay_stack {
+    font-size: 1.2rem;
   }
 }
 
