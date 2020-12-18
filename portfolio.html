@@ -3,11 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Raleway:wght@300;400&display=swap"
-      rel="stylesheet"
-    />
-    <!-- <link rel="stylesheet" href="./assets/css/portfolio.css" /> -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./assets/css/main.css" />
     <title>Portfolio</title>
 
@@ -42,113 +38,125 @@
   <body>
     <!-- PORTFOLIO -->
     <div class="portfolio">
-      <!-- PORTFOLIO_INTRO -->
-      <div class="portfolio_intro">
-        <div class="portfolio_intro_name">Max Ivanov</div>
-        <a class="btn" href="index.html">Home</a>
+      <div class="portfolio_inner-top">
+        <!-- BIO -->
+        <div class="bio">
+          <div class="bio_name">Max Ivanov</div>
+          <div class="bio_occupation">Frontend Developer</div>
+          <a class="bio_btn" href="index.html">Home</a>
+        </div>
       </div>
 
-      <!-- VISUALLY-HIDDEN -->
-      <h2 class="visually-hidden">Projects:</h2>
-
-      <!-- PORTFOLIO_list -->
-      <div class="portfolio_list">
-        <!-- PORTFOLIO_ITEM WEBPAINT -->
-        <div class="portfolio_item webpaint">
-          <!-- OVERLAY -->
-          <div class="overlay">
-            <div>
-              <div class="overlay_title">Webpaint</div>
-              <div class="overlay_stack">(HTML, CSS, JavaScript)</div>
-              <a
-                class="btn"
-                href="https://wwwax.github.io/webpaint/"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><i class="fas fa-eye"></i> Preview</a
-              >
-              <a
-                class="btn"
-                href="https://github.com/wwwax/webpaint/"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><i class="fab fa-github"></i> Github</a
-              >
+      <div class="portfolio_inner-bottom">
+        <!-- SWIPER -->
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <!-- ITEM-1 -->
+            <div class="swiper-slide slider-item">
+              <img
+                class="slider-item_image"
+                src="./assets/img/projects/webpaint.jpg"
+                alt="webpaint"
+              />
+              <span class="slider-item_title">Webpaint</span>
+              <span class="slider-item_stack">(HTML, CSS, JavaScript)</span>
+              <div class="slider-item_btns">
+                <a
+                  class="slider-item_btn"
+                  href="https://wwwax.github.io/webpaint/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fas fa-eye"></i> Preview</a
+                >
+                <a
+                  class="slider-item_btn"
+                  href="https://github.com/wwwax/webpaint/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fab fa-github"></i> Github</a
+                >
+              </div>
             </div>
-          </div>
-        </div>
 
-        <!-- PORTFOLIO_ITEM ACTIVEBOX -->
-        <div class="portfolio_item activebox">
-          <!-- OVERLAY -->
-          <div class="overlay">
-            <div>
-              <div class="overlay_title">Activebox</div>
-              <div class="overlay_stack">(HTML, CSS, jQuery)</div>
-              <a
-                class="btn"
-                href="https://wwwax.github.io/activebox/"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><i class="fas fa-eye"></i> Preview</a
-              >
-              <a
-                class="btn"
-                href="https://github.com/wwwax/activebox/"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><i class="fab fa-github"></i> Github</a
-              >
+            <!-- ITEM-2 -->
+            <div class="swiper-slide slider-item">
+              <img
+                class="slider-item_image"
+                src="./assets/img/projects/photos-searcher.jpg"
+                alt="photos-searcher"
+              />
+              <span class="slider-item_title">Photos Searcher</span>
+              <span class="slider-item_stack">(HTML, CSS, JavaScript, AJAX)</span>
+              <div class="slider-item_btns">
+                <a
+                  class="slider-item_btn"
+                  href="https://wwwax.github.io/pixabay-api/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fas fa-eye"></i> Preview</a
+                >
+                <a
+                  class="slider-item_btn"
+                  href="https://github.com/wwwax/pixabay-api/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fab fa-github"></i> Github</a
+                >
+              </div>
             </div>
-          </div>
-        </div>
 
-        <!-- PORTFOLIO_ITEM PIXABAY-API -->
-        <div class="portfolio_item pixabay-api">
-          <!-- OVERLAY -->
-          <div class="overlay">
-            <div>
-              <div class="overlay_title">Pictures Searcher</div>
-              <div class="overlay_stack">(HTML, CSS, JavaScript, Pixabay API)</div>
-              <a
-                class="btn"
-                href="https://wwwax.github.io/pixabay-api/"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><i class="fas fa-eye"></i> Preview</a
-              >
-              <a
-                class="btn"
-                href="https://github.com/wwwax/pixabay-api/"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><i class="fab fa-github"></i> Github</a
-              >
+            <!-- ITEM-3 -->
+            <div class="swiper-slide slider-item">
+              <img
+                class="slider-item_image"
+                src="./assets/img/projects/timer.jpg"
+                alt="timer"
+              />
+              <span class="slider-item_title">Timer</span>
+              <span class="slider-item_stack">(HTML, CSS, JavaScript)</span>
+              <div class="slider-item_btns">
+                <a
+                  class="slider-item_btn"
+                  href="https://wwwax.github.io/timer/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fas fa-eye"></i> Preview</a
+                >
+                <a
+                  class="slider-item_btn"
+                  href="https://github.com/wwwax/timer"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fab fa-github"></i> Github</a
+                >
+              </div>
             </div>
-          </div>
-        </div>
 
-        <!-- PORTFOLIO_ITEM TIMER -->
-        <div class="portfolio_item timer">
-          <!-- OVERLAY -->
-          <div class="overlay">
-            <div>
-              <div class="overlay_title">Timer</div>
-              <div class="overlay_stack">(HTML, CSS, JavaScript)</div>
-              <a
-                class="btn"
-                href="https://wwwax.github.io/timer/"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><i class="fas fa-eye"></i> Preview</a
-              >
-              <a
-                class="btn"
-                href="https://github.com/wwwax/timer"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><i class="fab fa-github"></i> Github</a
-              >
+            <!-- ITEM-4 -->
+            <div class="swiper-slide slider-item">
+              <img
+                class="slider-item_image"
+                src="./assets/img/projects/kubb.jpg"
+                alt="kubb"
+              />
+              <span class="slider-item_title">Kubb</span>
+              <span class="slider-item_stack">(HTML, CSS, JavaScript)</span>
+              <div class="slider-item_btns">
+                <a
+                  class="slider-item_btn"
+                  href="https://github.com/wwwax/kubb/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fas fa-eye"></i> Preview</a
+                >
+                <a
+                  class="slider-item_btn"
+                  href="https://github.com/wwwax/kubb/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fab fa-github"></i> Github</a
+                >
+              </div>
             </div>
           </div>
         </div>
@@ -160,5 +168,7 @@
       src="https://kit.fontawesome.com/93ee93d0ee.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>
