@@ -50,7 +50,7 @@ img {
   font-size: 50px;
   line-height: 1;
   font-weight: 700;
-  text-shadow: 2px 2px 4px #40e0d0;
+  text-shadow: 1px 1px 4px #40e0d0;
 }
 
 @media (min-width: 768px) {
@@ -90,7 +90,7 @@ img {
   color: #141e30;
   text-decoration: none;
   background-color: #fff;
-  box-shadow: 2px 2px 4px #40e0d0;
+  box-shadow: 1px 1px 4px #40e0d0;
 }
 
 @media (min-width: 768px) {
@@ -191,7 +191,7 @@ img {
 
 .slider-item_title {
   font-size: 16px;
-  text-shadow: 2px 2px 2px #40e0d0;
+  text-shadow: 1px 1px 4px #40e0d0;
 }
 
 @media (min-width: 768px) {
@@ -218,7 +218,7 @@ img {
   text-decoration: none;
   color: #141e30;
   background-color: #fff;
-  box-shadow: 2px 2px 4px #40e0d0;
+  box-shadow: 1px 1px 4px #40e0d0;
 }
 
 @media (min-width: 768px) {
