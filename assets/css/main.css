@@ -33,8 +33,7 @@ img {
   justify-content: center;
   align-items: center;
   position: relative;
-  background-color: #272727;
-  background: linear-gradient(to right, #141e30, #243b55);
+  background: linear-gradient(to right, #182848, #4b6cb7);
 }
 
 /* BIO */
@@ -50,7 +49,6 @@ img {
   font-size: 50px;
   line-height: 1;
   font-weight: 700;
-  text-shadow: 1px 1px 4px #40e0d0;
 }
 
 @media (min-width: 768px) {
@@ -87,10 +85,9 @@ img {
   font-size: 14px;
   font-weight: 700;
   line-height: 1;
-  color: #141e30;
+  color: #182848;
   text-decoration: none;
   background-color: #fff;
-  box-shadow: 1px 1px 4px #40e0d0;
 }
 
 @media (min-width: 768px) {
@@ -200,7 +197,6 @@ img {
 
 .slider-item_title {
   font-size: 16px;
-  text-shadow: 1px 1px 4px #40e0d0;
 }
 
 @media (min-width: 768px) {
@@ -227,7 +223,6 @@ img {
   text-decoration: none;
   color: #141e30;
   background-color: #fff;
-  box-shadow: 1px 1px 4px #40e0d0;
 }
 
 @media (min-width: 768px) {
